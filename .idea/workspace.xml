@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05735e40-e1ea-49ba-9ada-282b628307c6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/algorithm/com/ffzhello/hello/Main.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ffzhello/sort/SimpleSelectSort.java" afterPath="$PROJECT_DIR$/src/com/ffzhello/sort/SimpleSelectSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ffzhello/sort/Sort.java" afterPath="$PROJECT_DIR$/src/com/ffzhello/sort/Sort.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,21 +30,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleSelectSort.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SimpleSelectSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ffzhello/sort/SimpleSelectSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="228">
+              <caret line="297" column="31" lean-forward="false" selection-start-line="297" selection-start-column="31" selection-end-line="297" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ffzhello/sort/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#367#368#0" expanded="true" />
                 <element signature="e#405#406#0" expanded="true" />
@@ -100,8 +100,8 @@
         <option value="$PROJECT_DIR$/src/com/ffzhello/hello/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ffzhello/hello/Hello.java" />
         <option value="$PROJECT_DIR$/src/com/ffzhello/Sort.java" />
-        <option value="$PROJECT_DIR$/src/com/ffzhello/sort/SimpleSelectSort.java" />
         <option value="$PROJECT_DIR$/src/com/ffzhello/sort/Sort.java" />
+        <option value="$PROJECT_DIR$/src/com/ffzhello/sort/SimpleSelectSort.java" />
       </list>
     </option>
   </component>
@@ -211,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.SimpleSelectSort">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.ffzhello.Main" />
@@ -257,6 +257,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.ffzhello.hello.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algorithm" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SimpleSelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ffzhello.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ffzhello.sort.SimpleSelectSort" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -626,15 +646,17 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.Hello" />
       <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SimpleSelectSort" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Hello" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.SimpleSelectSort" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Hello" />
       </list>
     </recent_temporary>
   </component>
@@ -648,7 +670,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537504368864</updated>
-      <workItem from="1537504373061" duration="14819000" />
+      <workItem from="1537504373061" duration="16993000" />
     </task>
     <task id="LOCAL-00001" summary="sort">
       <created>1537626668062</created>
@@ -661,7 +683,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14819000" />
+    <option name="totallyTimeSpent" value="16993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -686,9 +708,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3967213" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27540985" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27540985" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21428572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -713,7 +735,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="sort" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -775,18 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ffzhello/sort/SimpleSelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ffzhello/sort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#367#368#0" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
@@ -803,6 +819,14 @@
             <element signature="e#1729#1730#0" expanded="true" />
             <element signature="e#1766#1767#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ffzhello/sort/SimpleSelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="297" column="31" lean-forward="false" selection-start-line="297" selection-start-column="31" selection-end-line="297" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
