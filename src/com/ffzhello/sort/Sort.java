@@ -1,6 +1,8 @@
 package com.ffzhello.sort;
 
 /**
+ * 排序接口，所有排序类都实现该接口
+ * 待排序元素必须实现Comparable或Comparator接口
  * Created by ffzheng on 2018/9/22.
  */
 public interface Sort {
