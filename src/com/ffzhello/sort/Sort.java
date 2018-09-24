@@ -2,7 +2,6 @@ package com.ffzhello.sort;
 
 /**
  * 排序接口，所有排序类都实现该接口
- * 待排序元素必须实现Comparable或Comparator接口
  * Created by ffzheng on 2018/9/22.
  */
 public interface Sort {
@@ -10,7 +9,7 @@ public interface Sort {
     /**
      * 字节数组排序
      * @param arr：待排序数组
-     * @param pattern:  false(降序)、true(升序)
+     * @param pattern:  false(降序)、true(默认升序)
      * @return 排序结果
      */
     public byte[] sort(byte[] arr, boolean pattern);
