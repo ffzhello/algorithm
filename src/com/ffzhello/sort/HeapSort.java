@@ -1,5 +1,9 @@
 package com.ffzhello.sort;
 
+import com.ffzhello.utils.ArrayUtils;
+
+import java.lang.reflect.AccessibleObject;
+
 /**堆排序算法
  * Created by ffzheng on 2018/9/24.
  */
@@ -61,18 +65,8 @@ public class HeapSort implements Sort {
             arr = adjust(arr, j,0);
         }
 
-        //是否是倒排
-        if (!pattern) {
-            int start = 0;
-            int end = arr.length - 1;
-            while (start < end) {
-                byte tmp = arr[start];
-                arr[start++] = arr[end];
-                arr[end--] = tmp;
-            }
-        }
-
-        return arr;
+        //是否倒排
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     /**
@@ -124,17 +118,7 @@ public class HeapSort implements Sort {
         }
 
         //是否是倒排
-        if (!pattern) {
-            int start = 0;
-            int end = arr.length - 1;
-            while (start < end) {
-                char tmp = arr[start];
-                arr[start++] = arr[end];
-                arr[end--] = tmp;
-            }
-        }
-
-        return arr;
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     private short[] adjust(short[] arr, int len, int parent) {
@@ -180,17 +164,7 @@ public class HeapSort implements Sort {
         }
 
         //是否是倒排
-        if (!pattern) {
-            int start = 0;
-            int end = arr.length - 1;
-            while (start < end) {
-                short tmp = arr[start];
-                arr[start++] = arr[end];
-                arr[end--] = tmp;
-            }
-        }
-
-        return arr;
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     private int[] adjust(int[] arr, int len, int parent) {
@@ -236,17 +210,7 @@ public class HeapSort implements Sort {
         }
 
         //是否是倒排
-        if (!pattern) {
-            int start = 0;
-            int end = arr.length - 1;
-            while (start < end) {
-                int tmp = arr[start];
-                arr[start++] = arr[end];
-                arr[end--] = tmp;
-            }
-        }
-
-        return arr;
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     private long[] adjust(long[] arr, int len, int parent) {
@@ -292,17 +256,7 @@ public class HeapSort implements Sort {
         }
 
         //是否是倒排
-        if (!pattern) {
-            int start = 0;
-            int end = arr.length - 1;
-            while (start < end) {
-                long tmp = arr[start];
-                arr[start++] = arr[end];
-                arr[end--] = tmp;
-            }
-        }
-
-        return arr;
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     private float[] adjust(float[] arr, int len, int parent) {
@@ -348,17 +302,7 @@ public class HeapSort implements Sort {
         }
 
         //是否是倒排
-        if (!pattern) {
-            int start = 0;
-            int end = arr.length - 1;
-            while (start < end) {
-                float tmp = arr[start];
-                arr[start++] = arr[end];
-                arr[end--] = tmp;
-            }
-        }
-
-        return arr;
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     private double[] adjust(double[] arr, int len, int parent) {
@@ -404,17 +348,7 @@ public class HeapSort implements Sort {
         }
 
         //是否是倒排
-        if (!pattern) {
-            int start = 0;
-            int end = arr.length - 1;
-            while (start < end) {
-                double tmp = arr[start];
-                arr[start++] = arr[end];
-                arr[end--] = tmp;
-            }
-        }
-
-        return arr;
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     /**
