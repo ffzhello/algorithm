@@ -1,5 +1,7 @@
 package com.ffzhello.sort;
 
+import com.ffzhello.utils.ArrayUtils;
+
 /**
  * 简单选择排序
  * Created by ffzheng on 2018/9/22.
@@ -48,16 +50,8 @@ public class SimpleSelectSort implements Sort {
             }
         }
 
-        //如果降序,反转数组
-        if (!pattern) {
-            int start = 0, end = len - 1;
-            while (start < end) {
-                byte tmp = arr[start];
-                arr[start] = arr[end];
-                arr[end] = tmp;
-            }
-        }
-        return arr;
+        //如果要求降序,反转数组
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     /**
@@ -89,16 +83,7 @@ public class SimpleSelectSort implements Sort {
             }
         }
 
-        //如果降序,反转数组
-        if (!pattern) {
-            int start = 0, end = len - 1;
-            while (start < end) {
-                char tmp = arr[start];
-                arr[start] = arr[end];
-                arr[end] = tmp;
-            }
-        }
-        return arr;
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     /**
@@ -131,15 +116,7 @@ public class SimpleSelectSort implements Sort {
         }
 
         //如果降序,反转数组
-        if (!pattern) {
-            int start = 0, end = len - 1;
-            while (start < end) {
-                short tmp = arr[start];
-                arr[start] = arr[end];
-                arr[end] = tmp;
-            }
-        }
-        return arr;
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     @Override
@@ -167,15 +144,7 @@ public class SimpleSelectSort implements Sort {
         }
 
         //如果降序,反转数组
-        if (!pattern) {
-            int start = 0, end = len - 1;
-            while (start < end) {
-                int tmp = arr[start];
-                arr[start] = arr[end];
-                arr[end] = tmp;
-            }
-        }
-        return arr;
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     /**
@@ -208,15 +177,7 @@ public class SimpleSelectSort implements Sort {
         }
 
         //如果降序,反转数组
-        if (!pattern) {
-            int start = 0, end = len - 1;
-            while (start < end) {
-                long tmp = arr[start];
-                arr[start++] = arr[end];
-                arr[end--] = tmp;
-            }
-        }
-        return arr;
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     /**
@@ -249,15 +210,7 @@ public class SimpleSelectSort implements Sort {
         }
 
         //如果降序,反转数组
-        if (!pattern) {
-            int start = 0, end = len - 1;
-            while (start < end) {
-                float tmp = arr[start];
-                arr[start] = arr[end];
-                arr[end] = tmp;
-            }
-        }
-        return arr;
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     /**
@@ -290,15 +243,7 @@ public class SimpleSelectSort implements Sort {
         }
 
         //如果降序,反转数组
-        if (!pattern) {
-            int start = 0, end = len - 1;
-            while (start < end) {
-                double tmp = arr[start];
-                arr[start] = arr[end];
-                arr[end] = tmp;
-            }
-        }
-        return arr;
+        return pattern? arr: ArrayUtils.reverse(arr);
     }
 
     /**
